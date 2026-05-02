@@ -16,11 +16,12 @@ namespace SHA.FluentEmail.Api
 
         public Task<SendResponse> SendEmail(string email, string subject, string message)
         {
+            var htmlBody = message.Replace("\r\n", "<br />").Replace("\n", "<br />");
 
             return _fluentEmail
                 .To(email)
                 .Subject(subject)
-                .Body(message, isHtml: true)
+                .Body(htmlBody, isHtml: true)
                 .SendAsync();
         }
         //public Task SendEmail(string email, string subject, string message)
