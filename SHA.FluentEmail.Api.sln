@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHA.FluentEmail.Api", "SHA.FluentEmail.Api\SHA.FluentEmail.Api.csproj", "{81B1B301-5C17-41B7-8FFB-551EBB3AD218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHA.FluentEmail.MVC", "SHA.FluentEmail.MVC\SHA.FluentEmail.MVC.csproj", "{56CE3722-0A00-4D5E-868B-33FC859C5B8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81B1B301-5C17-41B7-8FFB-551EBB3AD218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B1B301-5C17-41B7-8FFB-551EBB3AD218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B1B301-5C17-41B7-8FFB-551EBB3AD218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B1B301-5C17-41B7-8FFB-551EBB3AD218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56CE3722-0A00-4D5E-868B-33FC859C5B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CE3722-0A00-4D5E-868B-33FC859C5B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CE3722-0A00-4D5E-868B-33FC859C5B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CE3722-0A00-4D5E-868B-33FC859C5B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BE3F170-EFEB-473A-8245-77AF97AD1FAB}
+	EndGlobalSection
+EndGlobal

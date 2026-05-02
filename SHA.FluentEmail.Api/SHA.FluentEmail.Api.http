@@ -1,0 +1,6 @@
+@SHA.FluentEmail.Api_HostAddress = http://localhost:5117
+
+GET {{SHA.FluentEmail.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
